@@ -1,0 +1,63 @@
+/* Write your CSS here */
+* {
+  font-family: 'roboto';
+  /* border: 1px solid blue; */
+}
+.course-card-container {
+  text-align: left;
+  padding: 10px;
+}
+.course-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.course-title {
+  color: #171f46;
+  font-size: 25px;
+  margin: 5px;
+  padding: 0;
+}
+.duration-text {
+  color: #171f46;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  font-weight: 600;
+}
+.clock-icon {
+  font-size: 30px;
+  color: #171f46;
+  margin-right: 5px;
+}
+.description {
+  color: #1e293b;
+  font-size: 20px;
+  margin: 5px;
+}
+.tags-list-container {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+.tags {
+  background-color: #e2e8f1;
+  color: #171f46;
+  padding: 2px 8px;
+  margin: 5px 10px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 4px;
+}
+.project-image {
+  width: 100%;
+}
+.project-link {
+  color: #0967d2;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 5px;
+}

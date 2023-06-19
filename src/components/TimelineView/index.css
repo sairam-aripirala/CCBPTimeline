@@ -1,0 +1,11 @@
+/* Write your CSS here */
+.main-heading {
+  text-align: center;
+  font-family: 'roboto';
+  font-size: 35px;
+  color: #314261;
+}
+.main-heading-sub-part {
+  font-size: 38px;
+  color: #111735;
+}
